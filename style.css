@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  margin: 20px auto;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+body {
+  background-color: #1d1e1f;
+  color: white;
+  font-family: Courier;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.flex-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.div-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 25px;
+  margin: 25px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 25px auto;
+  text-align: center;
+  -ms-flex-item-align: end;
+      align-self: end;
+}
+
+output {
+  color: black;
+  background-color: white;
+}
+
+.custom-button {
+  outline: none;
+  -webkit-box-shadow: 0 0 20px #e2e2e2;
+          box-shadow: 0 0 20px #e2e2e2;
+  border-radius: 3px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: black;
+  background-color: white;
+  padding: 20px;
+  font-family: Courier;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.custom-button:active {
+  font-weight: 700;
+  border: 2px solid black;
+}
+
+.custom-button:disabled {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.solution {
+  margin-bottom: 20px;
+  color: #b7ecb7;
+}
+
+td.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table {
+  border-spacing: 0;
+}
+
+.flex-container {
+  overflow: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box {
+  overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.pos-abs {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.pos-rel {
+  top: -50px;
+  position: relative;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.fa-shopping-cart {
+  position: relative;
+}
+
+.order-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #b7ecb7;
+}
+
+.noimg-tobasket {
+  width: 50px;
+  height: 50px;
+}
+
+.order-item-text {
+  margin-bottom: 0;
+  font-size: small;
+  line-height: normal;
+}
+
+.reduce-product {
+  line-height: initial;
+}
+
+#btn-find {
+  padding: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 100%;
+}
+
+.flex-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+.mybasket {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: absolute;
+  right: 0;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.right-block {
+  text-align: right;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+/*# sourceMappingURL=style.css.map */
